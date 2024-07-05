@@ -28,7 +28,6 @@ body{
     padding: 20px 10%;
     background:#131313 ;
     display: flex;
-    
     justify-content: space-between;
     align-items: center;
     z-index: 100;
@@ -81,8 +80,8 @@ span{
     color: var(--main-color);
 }
 section{
-    min-height: 100vh;
-    padding: 10rem 12% 10rem;
+    min-height: 80vh;
+    padding: 10rem 15% 10rem;
 }
 .home{
     position: relative;
@@ -854,7 +853,7 @@ section{
     margin-top: 10px;
 }
 .contact-text{
-    padding-left: 50px;
+    padding-left: 5px;
 }
 .contact-text h2{
     font-size: 60px;
@@ -1170,6 +1169,27 @@ section{
         font-size: 2rem;
         margin: 3rem 0;
         color: white; 
+    }
+    .skills .container1 {
+        width: 190px;
+        padding:21px 50px;  
+        height: 450px;
+    }
+    .skills .container2{
+        padding:21px;
+        width: 190px;
+        height: 450px;
+    }
+    .skills .container3{
+        padding:21px;
+        width: 190px;
+        height: 450px;
+    }
+    .skills .container4{
+        padding:21px;
+        width: 190px;
+        height: 450px;
+        font-size: 10px;
     }
     .home{
         flex-direction: column-reverse;
